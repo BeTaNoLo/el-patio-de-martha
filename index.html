@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="El Patio de Martha. Plantas cultivadas con amor, cuidadas en familia y preparadas para tu hogar."
+    />
+    <title>El Patio de Martha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content container">
+          <div class="hero__text">
+            <p class="eyebrow">Plantas para casa y jardín</p>
+            <h1>El Patio de Martha</h1>
+            <p class="hero__subtitle">Plantas cultivadas con amor.</p>
+            <div class="hero__actions">
+              <a href="plantas.html" class="btn btn--primary">Ver plantas</a>
+              <a href="sobre-martha.html" class="btn btn--secondary">Nuestra historia</a>
+            </div>
+          </div>
+          <div class="hero__visual" aria-label="Patio con plantas, imagen temporal">
+            <div class="hero__image-card">
+              <span>Imagen temporal del patio</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section">
+        <div class="container split-block">
+          <div class="split-block__image">
+            <div class="photo-placeholder photo-placeholder--garden">
+              <span>Patio de Martha</span>
+            </div>
+          </div>
+          <div class="split-block__content">
+            <p class="eyebrow">Historia</p>
+            <h2>Una pasión que comenzó en el patio</h2>
+            <p>
+              Martha vive rodeada de plantas. Cada maceta, cada hoja y cada detalle se cuida con paciencia,
+              observación y cariño. Lo que nace en su patio se convierte en una experiencia cercana y auténtica
+              para quienes buscan una planta con alma.
+            </p>
+            <p>
+              Este proyecto nació para compartir ese pequeño mundo lleno de vida, calma y belleza natural.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured section section--soft">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Plantas destacadas</p>
+            <h2>Elegidas con cariño</h2>
+          </div>
+          <div class="product-grid product-grid--featured" data-featured-products></div>
+        </div>
+      </section>
+
+      <section class="philosophy section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Nuestra filosofía</p>
+            <h2>Simple, honesta y cercana</h2>
+          </div>
+          <div class="philosophy__grid">
+            <article class="philosophy-card">
+              <span class="icon">✿</span>
+              <h3>Cultivadas con cariño</h3>
+              <p>Cada planta se cuida con paciencia y atención, como si fuera parte de la familia.</p>
+            </article>
+            <article class="philosophy-card">
+              <span class="icon">🌿</span>
+              <h3>Pocas unidades</h3>
+              <p>Seleccionamos pequeñas series para que cada ejemplar siga siendo especial y bien cuidado.</p>
+            </article>
+            <article class="philosophy-card">
+              <span class="icon">💚</span>
+              <h3>Atención cercana</h3>
+              <p>Te ayudamos a elegir la planta adecuada y a cuidarla con buena información.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section">
+        <div class="container cta__box">
+          <div>
+            <p class="eyebrow">Descubre el catálogo</p>
+            <h2>Encuentra tu próxima planta favorita</h2>
+          </div>
+          <a href="plantas.html" class="btn btn--primary">Ir al catálogo</a>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/product-card.js"></script>
+    <script src="components/product-grid.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/catalogo.js"></script>
+  </body>
+</html>

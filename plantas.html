@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo | El Patio de Martha</title>
+    <meta name="description" content="Catálogo de plantas de El Patio de Martha." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+
+    <main class="page-shell">
+      <section class="page-banner">
+        <div class="container">
+          <p class="eyebrow">Catálogo</p>
+          <h1>Plantas para cada rincón</h1>
+        </div>
+      </section>
+
+      <section class="catalog section">
+        <div class="container">
+          <div class="catalog-toolbar">
+            <div class="filters" aria-label="Filtros de plantas">
+              <button class="filter-btn is-active" data-category-filter="todos">Todas</button>
+              <button class="filter-btn" data-category-filter="Interior">Interior</button>
+              <button class="filter-btn" data-category-filter="Exterior">Exterior</button>
+              <button class="filter-btn" data-category-filter="Sombra">Sombra</button>
+            </div>
+          </div>
+
+          <div id="catalog-grid" class="product-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/product-card.js"></script>
+    <script src="components/product-grid.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/catalogo.js"></script>
+  </body>
+</html>

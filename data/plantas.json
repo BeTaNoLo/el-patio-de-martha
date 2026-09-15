@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nombre": "Monstera deliciosa",
+    "descripcion": "Planta tropical de hojas grandes y muy decorativa, ideal para rincones luminosos del hogar.",
+    "precio": 22,
+    "stock": 4,
+    "categoria": "Interior",
+    "imagen": "images/plantas/monstera.jpg",
+    "disponible": true,
+    "cuidados": [
+      "Necesita luz indirecta brillante.",
+      "Regar cuando la capa superior de la tierra esté seca.",
+      "Evita corrientes de aire y cambios bruscos de temperatura."
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Ficus lyrata",
+    "descripcion": "Ficus con hojas grandes en forma de violín, muy elegante para espacios cálidos y luminosos.",
+    "precio": 28,
+    "stock": 2,
+    "categoria": "Interior",
+    "imagen": "images/plantas/ficus.jpg",
+    "disponible": true,
+    "cuidados": [
+      "Luz brillante pero sin sol directo fuerte.",
+      "Mantén la tierra ligeramente húmeda.",
+      "Poda para mantener forma y vigor."
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Lavanda",
+    "descripcion": "Aromática, resistente y muy bonita en macetas o jardines con sol directo.",
+    "precio": 16,
+    "stock": 6,
+    "categoria": "Exterior",
+    "imagen": "images/plantas/lavanda.jpg",
+    "disponible": true,
+    "cuidados": [
+      "Prefiere sol directo y suelo bien drenado.",
+      "Riega con moderación.",
+      "Poda tras la floración para estimular brotes nuevos."
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Helecho de Boston",
+    "descripcion": "Planta fresca y suave que aporta movimiento y humedad a cualquier entorno.",
+    "precio": 18,
+    "stock": 3,
+    "categoria": "Sombra",
+    "imagen": "images/plantas/helecho.jpg",
+    "disponible": true,
+    "cuidados": [
+      "Luz indirecta o semisombra.",
+      "Mantén la humedad ambiente y la tierra ligeramente húmeda.",
+      "No dejes que se seque del todo entre riegos."
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Aloe vera",
+    "descripcion": "Muy fácil de cuidar y útil para espacios luminosos con un estilo natural y limpio.",
+    "precio": 14,
+    "stock": 0,
+    "categoria": "Interior",
+    "imagen": "images/plantas/aloe.jpg",
+    "disponible": false,
+    "cuidados": [
+      "Necesita mucha luz directa.",
+      "Riega poco y permite que la tierra se seque.",
+      "Retira hojas secas para mantenerla con vigor."
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Ruta graveolens",
+    "descripcion": "Planta aromática con un aspecto muy cuidado y un olor intenso y característico.",
+    "precio": 19,
+    "stock": 1,
+    "categoria": "Exterior",
+    "imagen": "images/plantas/ruta.jpg",
+    "disponible": true,
+    "cuidados": [
+      "Luz directa y suelo bien drenado.",
+      "Riego moderado.",
+      "Revisa periódicamente para evitar marchitez."
+    ]
+  }
+]

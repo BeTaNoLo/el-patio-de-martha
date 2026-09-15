@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | El Patio de Martha</title>
+    <meta name="description" content="Contacta con El Patio de Martha para pedir información y consultar plantas." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+
+    <main class="page-shell">
+      <section class="page-banner">
+        <div class="container">
+          <p class="eyebrow">Contacto</p>
+          <h1>Hablemos de plantas</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <div class="contact-card">
+            <h2>Estaremos encantadas de ayudarte</h2>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> hola@elpatiodemartha.com</li>
+              <li><strong>Teléfono:</strong> +34 600 123 456</li>
+              <li><strong>Ubicación:</strong> Patio familiar en la zona de la ciudad</li>
+            </ul>
+          </div>
+
+          <form class="form-card">
+            <label>
+              Nombre
+              <input type="text" name="nombre" placeholder="Tu nombre" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="tu@email.com" />
+            </label>
+            <label>
+              Mensaje
+              <textarea name="mensaje" rows="5" placeholder="Cuéntanos qué planta te interesa o si necesitas ayuda con cuidados."></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
